@@ -3,7 +3,6 @@ package com.cadebe.github_reader.service
 import com.cadebe.github_reader.model.GitHubRepository
 import com.cadebe.github_reader.model.User
 import com.google.gson.JsonArray
-import org.json.JSONArray
 import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Subject
@@ -60,7 +59,7 @@ class ReaderServiceTest extends Specification {
         given: "A name"
 
         when: "calling getJsonArrayRepos()"
-        JSONArray result = readerService.getJsonArrayRepos(mockUserName)
+        def result = readerService.getJsonArrayRepos(mockUserName)
 
         then: "getJsonArrayRepos() successfully called"
         result != null
