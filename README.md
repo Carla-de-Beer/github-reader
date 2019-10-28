@@ -1,4 +1,5 @@
 # GitHub Reader
+[![CircleCI](https://circleci.com/gh/Carla-de-Beer/github-reader.svg?style=svg)](https://circleci.com/gh/Carla-de-Beer/github-reader)
 
 A web-based reader to display GitHub repository information for a specific GitHub user given a valid GitHub account name. Note, all the information displayed in the Reader is information that has been made publicly accessible. No data regarding private repositories will be displayed.
 
