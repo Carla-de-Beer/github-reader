@@ -3,7 +3,13 @@
 
 A web-based reader to display GitHub repository information for a specific GitHub user given a valid GitHub account name. Note, all the information displayed in the Reader is information that has been made publicly accessible. No data regarding private repositories will be displayed.
 
-The is a Spring Boot project with ThymeLeaf, Java 11 and Maven, making use of the [GitHub Developer API](https://developer.github.com/v3/) to access the GitHub data.
+The is a Spring Boot MVC project with ThymeLeaf, making use of the [GitHub Developer API](https://developer.github.com/v3/) to access the GitHub data.
+
+## Requirements
+
+* Java 11
+* Spring Boot 2.2.1.RELEASE
+* Spock
 
 ## Getting started
 

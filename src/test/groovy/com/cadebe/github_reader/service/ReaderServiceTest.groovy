@@ -1,4 +1,4 @@
-package com.cadebe.github_reader.service
+
 
 import com.cadebe.github_reader.model.GitHubRepository
 import com.cadebe.github_reader.model.User
@@ -34,16 +34,19 @@ class ReaderServiceTest extends Specification {
                 .createdYear("2012")
                 .stargazersCount(0)
                 .build())
+
         repoList.add(GitHubRepository.builder()
                 .repoName("repoName2")
                 .description("description2")
                 .language(language2)
                 .build())
+
         repoList.add(GitHubRepository.builder()
                 .repoName("repoName3")
                 .urlLink("urlLink3")
                 .language(language1)
                 .build())
+
         repoList.add(GitHubRepository.builder()
                 .repoName("repoName4")
                 .urlLink("urlLink4")
@@ -53,7 +56,7 @@ class ReaderServiceTest extends Specification {
     }
 
     @Subject
-    def readerService = new ReaderService()
+    def readerService = new ReaderServiceImpl()
 
     def "ReaderService: getJsonArrayRepos()"() {
         given: "A name"
