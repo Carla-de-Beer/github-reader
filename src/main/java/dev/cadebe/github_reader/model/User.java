@@ -1,4 +1,4 @@
-package com.cadebe.github_reader.model;
+package dev.cadebe.github_reader.model;
 
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -10,9 +10,9 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class User {
 
-    String userName;
-    String htmlUrl;
-    String avatarUrl;
-    String yearCreated;
-    int numFollowers;
+    final String userName;
+    final String htmlUrl;
+    final String avatarUrl;
+    final String yearCreated;
+    final int numFollowers;
 }

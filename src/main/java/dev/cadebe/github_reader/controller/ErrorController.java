@@ -1,4 +1,4 @@
-package com.cadebe.github_reader.controller;
+package dev.cadebe.github_reader.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ui.Model;

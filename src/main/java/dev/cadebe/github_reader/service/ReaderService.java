@@ -1,7 +1,7 @@
-package com.cadebe.github_reader.service;
+package dev.cadebe.github_reader.service;
 
-import com.cadebe.github_reader.model.GitHubRepository;
-import com.cadebe.github_reader.model.User;
+import dev.cadebe.github_reader.model.GitHubRepository;
+import dev.cadebe.github_reader.model.User;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 

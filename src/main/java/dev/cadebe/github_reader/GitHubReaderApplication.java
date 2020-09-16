@@ -1,4 +1,4 @@
-package com.cadebe.github_reader;
+package dev.cadebe.github_reader;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;

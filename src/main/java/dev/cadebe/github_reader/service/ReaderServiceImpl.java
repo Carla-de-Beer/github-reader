@@ -1,7 +1,7 @@
-package com.cadebe.github_reader.service;
+package dev.cadebe.github_reader.service;
 
-import com.cadebe.github_reader.model.GitHubRepository;
-import com.cadebe.github_reader.model.User;
+import dev.cadebe.github_reader.model.GitHubRepository;
+import dev.cadebe.github_reader.model.User;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonNull;
@@ -184,7 +184,7 @@ public class ReaderServiceImpl implements ReaderService {
     }
 
     private static JsonElement readURL(String sURL) {
-        JsonElement root = null;
+        JsonElement root;
         try {
             // Connect to the URL using Java's native library
             URL url = new URL(sURL);

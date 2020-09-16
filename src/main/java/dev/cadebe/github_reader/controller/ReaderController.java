@@ -1,8 +1,8 @@
-package com.cadebe.github_reader.controller;
+package dev.cadebe.github_reader.controller;
 
-import com.cadebe.github_reader.model.GitHubRepository;
-import com.cadebe.github_reader.model.User;
-import com.cadebe.github_reader.service.ReaderServiceImpl;
+import dev.cadebe.github_reader.model.GitHubRepository;
+import dev.cadebe.github_reader.model.User;
+import dev.cadebe.github_reader.service.ReaderServiceImpl;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import lombok.extern.slf4j.Slf4j;
