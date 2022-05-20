@@ -7,7 +7,7 @@ import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Subject
 
-class ReaderServiceTest extends Specification {
+class ReaderServiceImplTest extends Specification {
 
     @Shared
     def mockUserName = "octocat"
@@ -93,7 +93,7 @@ class ReaderServiceTest extends Specification {
         result.getClass() == User
         result.getUserName() == "The Octocat"
         result.getHtmlUrl() == "https://github.com/octocat"
-        result.getAvatarUrl() == "https://avatars3.githubusercontent.com/u/583231?v=4"
+        result.getAvatarUrl() == "https://avatars.githubusercontent.com/u/583231?v=4"
         result.getYearCreated() == "2011"
         result.getNumFollowers() == 30
     }
